@@ -1,0 +1,49 @@
+{
+  "courses": [
+      {
+        "id": 1,
+        "name": "Frontend Pro",
+        "parts": [
+          {
+            "id": 1,
+            "part": "Вводные занятия по React",
+            "tasks": 10
+          },
+          {
+            "id": 2,
+            "part": "Использование React хуков",
+            "tasks": 5
+          },
+          {
+            "id": 3,
+            "part": "Использование библиотеки react-router-dom",
+            "tasks": 15
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Frontend Basic",
+        "parts": [
+          {
+            "id": 1,
+            "part": "Основы HTML, CSS",
+            "tasks": 12
+          },
+          {
+            "id": 2,
+            "part": "JS. Работа с массивами и циклами",
+            "tasks": 7
+          },
+          {
+            "id": 3,
+            "part": "DOM. Поиск элементов",
+            "tasks": 5
+          }
+        ]
+      }
+    ]
+  }
+   
+
+

@@ -4,7 +4,7 @@ const Total = ({parts}) => {
     const sum = parts.reduce((sum,el) => sum + el.tasks,0)
 
     return (
-        <p>количество задач в курсе: {sum}</p>   
+        <p>Общее количество задач в курсе: {sum}</p>   
     );
 };
 
