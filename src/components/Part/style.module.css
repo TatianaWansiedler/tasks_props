@@ -10,3 +10,15 @@
 .tasks {
   text-align: center;
 }
+.form{
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.input {
+  width: 40%;
+  padding: 5px;
+}
+.btn{
+  width: 13%;
+}

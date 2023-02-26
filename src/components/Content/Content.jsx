@@ -2,8 +2,8 @@ import React from 'react';
 import Part from '../Part/Part';
 import s from './style.module.css'
 
-const Content = ({parts}) => {
-    console.log(parts)
+
+const Content = ({parts,updatePart}) => {
     return (
         <div>
             <div className={s.sub_title}>
@@ -12,7 +12,7 @@ const Content = ({parts}) => {
             </div>
             <div className={s.box}>
                 {
-                    parts.map((el,i) => <Part key={i} {...el} />)
+                    parts.map((el,i) => <Part key={i} {...el} index={i} updatePart={updatePart}/>)
                 }
             </div>
         </div>

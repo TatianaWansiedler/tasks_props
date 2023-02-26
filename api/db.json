@@ -7,7 +7,7 @@
         {
           "id": 1,
           "part": "Вводные занятия по React",
-          "tasks": 10
+          "tasks": "12"
         },
         {
           "id": 2,
@@ -28,7 +28,7 @@
         {
           "id": 1,
           "part": "Основы HTML, CSS",
-          "tasks": 12
+          "tasks": "13"
         },
         {
           "id": 2,
@@ -37,50 +37,21 @@
         },
         {
           "id": 3,
-          "part": "DOM. Поиск элементов",
+          "part": "Элементы DOM",
           "tasks": 5
         }
       ]
     },
     {
-      "name": "Redux",
+      "name": "test",
       "parts": [
         {
-          "part": "основы",
+          "id": 1677440820941,
+          "part": "test",
           "tasks": "2"
         }
       ],
       "id": 3
-    },
-    {
-      "name": "Redux",
-      "parts": [
-        {
-          "part": "",
-          "tasks": ""
-        }
-      ],
-      "id": 4
-    },
-    {
-      "name": "Redux",
-      "parts": [
-        {
-          "part": "",
-          "tasks": ""
-        }
-      ],
-      "id": 5
-    },
-    {
-      "name": "Redux",
-      "parts": [
-        {
-          "part": "",
-          "tasks": ""
-        }
-      ],
-      "id": 6
     }
   ]
 }
