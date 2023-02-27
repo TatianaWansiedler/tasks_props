@@ -42,9 +42,12 @@ const App = () => {
 
   const handleDelete = (id) => {
     deleteCourse(id)
-      .then(res => console.log(res))
+      .then(res => {
+        console.log(res)
+        setCourses(courses.filter(el => el.id !== id))
+      })
       .catch(err => console.log(err))
-    setCourses(courses.filter(el => el.id !== id))
+
   }
 
   const updatePart = (id) => {
@@ -52,12 +55,15 @@ const App = () => {
       const course = courses.find(el => el.id === id)
       let target = course.parts
       target[index] = data
-
-      setCourses([...courses])
       changePart(id, {
         ...course,
         parts: target
       })
+        .then(res => {
+          console.log(res)
+          setCourses([...courses])
+        })
+        .catch(err => console.log(err))
     }
   }
 
